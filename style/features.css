@@ -1,0 +1,32 @@
+.features {
+  background-color: var(--second-bg-color);
+  padding: 40px 0;
+  color: var(--main-color);
+}
+.features--list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.features--item {
+  flex-basis: 236px;
+  padding-top: 115px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.features--item-one {
+  background-image: var(--url-features-one);
+}
+.features--item-two {
+  background-image: var(--url-features-two);
+}
+.features--item-three {
+  background-image: var(--url-features-three);
+}
+.features--item-four {
+  background-image: var(--url-features-four);
+}
